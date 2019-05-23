@@ -6,6 +6,10 @@ body {
   background: url("../images/concrete_seamless.png");
 }
 
+#name{
+  background-color: cyan;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -53,4 +57,22 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  #profile{
+    width: 90px;
+    height: 110px;
+  }
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
 }
