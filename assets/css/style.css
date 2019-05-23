@@ -6,7 +6,7 @@ body {
   background: url("../images/concrete_seamless.png");
 }
 
-#name{
+.name{
   background-color: cyan;
 }
 
